@@ -3,13 +3,12 @@ How to use rst to edit file
 
 Table grammar
 -----
-===== ====== ======
-File
-===== ====== ======
-fielA
-===== ====== ======
-fileB
-===== ====== ======
+=========== ============== ===========
+File        Size           Description
+=========== ============== ===========
+fielA       30m dad ads    this is code file that have 3000 lines c# code.
+fileB       20m
+=========== ============== ===========
 
 This is a normal text paragraph. The next paragraph is a code sample::
 
