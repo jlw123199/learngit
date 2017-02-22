@@ -10,22 +10,30 @@ fielA       30m dad ads    this is code file that have 3000 lines c# code.
 fileB       20m
 =========== ============== ===========
 
+Source Code grammar
+-----
 This is a normal text paragraph. The next paragraph is a code sample::
 
-   It is not processed in any way, except
-   that the indentation is removed.
-
-   It can span multiple lines.
+   function(){
+      alert("this code chunk.");
+   }
 
 This is a normal text paragraph again.
 
-Code:
-Git is a distributed version control system.
-Git is free software distributed under the GPL.
-Git has a mutable index called stage.
+Out link grammar
+-----
+This is a paragraph that contains `a link`_.
 
-Git is a distributed version control system.
-Git is free software distributed under the GPL.
-Git has a mutable index called stage.Git is a distributed version control system.
-Git is free software distributed under the GPL.
-Git has a mutable index called stage.
+.. _a link: http://www.baidu.com/
+
+
+Chapter grammar
+-----
+: # 有上标线, 用以部分 |today|
+: * 有上标线, 用以章节
+: =, 用以小节
+: -, 用以子节
+: ^, 用以子节的子节
+: ", 用以段落
+
+
